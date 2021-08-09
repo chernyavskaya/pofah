@@ -9,14 +9,11 @@ config = {
 
     # input and output directories
 
-    #'input_dir' : '/eos/user/k/kiwoznia/data/VAE_data/VAE_check/images',
-    'input_dir' : 'data/events',
-    #'input_dir' : 'data/images',
+    'input_dir' : 'VAE_data/events',
     'fig_dir' : 'fig',
-    #'result_dir' : '/eos/user/k/kiwoznia/data/VAE_data/outputs/results',
-    'result_dir' : '/eos/home-k/kiwoznia/dev/autoencoder_for_anomaly/convolutional_VAE/results',
+    'result_dir' : '/eos/user/n/nchernya/MLHEP/AnomalyDetection/autoencoder_for_anomaly/graph_based/results/',
     'tensorboard_dir' : 'tensorboard',
-    'model_dir' : 'models',
-    'analysis_base_dir': '/eos/home-k/kiwoznia/data/VAE_results/bump_hunt_results',
-    'model_analysis_base_dir': '/eos/home-k/kiwoznia/data/VAE_results/model_analysis'
+    'model_dir' : 'output_models',
+    'analysis_base_dir': '/eos/user/n/nchernya/MLHEP/AnomalyDetection/autoencoder_for_anomaly/graph_based/bump_hunt_results/',
+    'model_analysis_base_dir': '/eos/user/n/nchernya/MLHEP/AnomalyDetection/autoencoder_for_anomaly/graph_based/model_analysis/'
 }
